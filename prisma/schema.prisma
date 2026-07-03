@@ -4,7 +4,7 @@ generator client {
 
 datasource db {
   provider = "postgresql"
-  url      = env("DATABASE_URL")
+  url      = "postgresql://postgres:Simform@123@localhost:5432/PracticalExam?schema=public&connection_limit=5&pool_timeout=5"
 }
 
 model User {
