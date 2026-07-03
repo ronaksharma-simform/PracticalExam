@@ -88,3 +88,5 @@ Fix: Use of validation pipe with zodSchema will ensure only proper valdiated dat
 Issue 14 : 
 File name : Request-logger.interceptor.ts
 Line Number: RequestLoggerInterceptor
+Problem : We are waiting for long time till request get completed , some operation can take longer time than expected
+Fix: Introduce rxjs timeout operator to limit the time to excute the request
