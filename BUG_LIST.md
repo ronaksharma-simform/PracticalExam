@@ -90,3 +90,18 @@ File name : Request-logger.interceptor.ts
 Line Number: RequestLoggerInterceptor
 Problem : We are waiting for long time till request get completed , some operation can take longer time than expected
 Fix: Introduce rxjs timeout operator to limit the time to excute the request
+
+
+
+Other Issues Faced
+
+1 - Db url in prisma is giving error and not getting resolve which make me feel demotivated at starting of assessment.
+
+2 - Problem comes while switching the files from controller to service , service to buglist , buglist to controller
+
+3 - Got difficulty while finding the problem as i have a habit of using a lot of console.log but get familiar as i able to find the issue without console.log
+
+
+
+
+
